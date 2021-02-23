@@ -1,0 +1,28 @@
+#home {
+
+    main {
+        display: flex;
+        height: calc(100vh - 1rem);
+        margin: 0;
+        padding: 0;
+
+        section {
+            width: 50%;
+
+            &:first-child {
+                background: #ddd;
+            }
+        }
+    }
+}
+
+#intro {
+    text-align: center;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+
+     div > *:not(:last-child) {
+         margin-bottom: 5.333vh;
+     }
+}

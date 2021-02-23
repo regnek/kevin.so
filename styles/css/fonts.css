@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'm';
+    font-weight: 400;
+    src: url('../../assets/fonts/Milano/mttmilano-regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/Milano/mttmilano-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/Milano/mttmilano-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../assets/fonts/Milano/mttmilano-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../assets/fonts/Milano/mttmilano-regular-webfont.svg#MTTMilano') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'm';
+    font-weight: 700;
+    src: url('../../assets/fonts/Milano/mttmilano-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/Milano/mttmilano-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/Milano/mttmilano-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../assets/fonts/Milano/mttmilano-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../../assets/fonts/Milano/mttmilano-bold-webfont.svg#MTTMilano') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 's';
+  font-weight: 300;
+  src: url('../../assets/fonts/Saol/SaolDisplay-Light.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Saol/SaolDisplay-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../assets/fonts/Saol/SaolDisplay-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Saol/SaolDisplay-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Saol/SaolDisplay-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Saol/SaolDisplay-Light.svg#SaolDisplay') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 's';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../../assets/fonts/Saol/SaolDisplay-LightItalic.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/fonts/Saol/SaolDisplay-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../assets/fonts/Saol/SaolDisplay-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/fonts/Saol/SaolDisplay-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/fonts/Saol/SaolDisplay-LightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/fonts/Saol/SaolDisplay-LightItalic.svg#SaolDisplay') format('svg'); /* Legacy iOS */
+}

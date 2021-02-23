@@ -1,0 +1,67 @@
+body {
+    font-family: 'EB Garamond', serif;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+h2 {
+    font-family: 's';
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    font-size: 4.444vw;
+    line-height: 1;
+}
+
+#intro-headline {
+    text-transform: uppercase;
+
+    span {
+        text-transform: lowercase;
+        font-style: italic;
+    }
+}
+
+.sub-headline,
+button {
+    font-family: 'm';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sub-headline {
+    display: block;
+    font-size: 1.111vw;
+    letter-spacing: 0.2em;
+    line-height: 1;
+}
+
+button {
+    font-size: 0.972vw;
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+
+p {
+    font-size: 1.375vw;
+    line-height: 1.6;
+    margin: 0;
+
+    & + p {
+        margin-top: calc(1.375vw * 1.6);
+    }
+}
+
+.bold {
+    font-weight: 500;
+}
+
+#menu li {
+    font-size: 4.444vw;
+    font-family: 's';
+}

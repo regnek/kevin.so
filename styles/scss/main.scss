@@ -1,7 +1,38 @@
 @import 'colors';
+@import 'typography';
 
 @import 'components/nav';
+@import 'components/buttons';
+@import 'components/footer';
+
+@import 'pages/home';
+@import 'pages/work';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-    color: $main;
+    font-size: 16px;
+    color: $black;
+    background: $bg;
+    border: 0.5rem solid #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.unem {
+    opacity: 0.5;
+}
+
+.sub-headline + .sub-headline {
+    margin-top: 0.555vw;
 }

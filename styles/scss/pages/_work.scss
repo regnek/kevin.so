@@ -1,0 +1,56 @@
+#work {
+    main {
+        margin: 4.667vh 7.777vw 0;
+
+        section {
+            display: flex;
+            padding: 13.333vh 0;
+            border-bottom: 1px solid rgba($black, 0.1);
+
+            &:last-of-type {
+                border-bottom: 0;
+            }
+
+            & > div {
+                width: 50%;
+
+                &:first-of-type {
+                    padding-right: 3.333vw;
+                }
+            }
+        }
+    }
+
+    h2 {
+        margin: 2.777vw 0;
+    }
+
+    .sub-headline {
+        span {
+            &::before {
+                content: '+';
+                position: relative;
+                display: inline-block;
+                margin: 0 0.5rem;
+                top: -2px;
+            }
+
+            &:first-of-type {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+
+        &.unem {
+            span:nth-of-type(2)::before {
+                content: '\2022';
+                top: -1px;
+            }
+        }
+    }
+
+    button {
+        margin-top: 2.777vw;
+    }
+}
